@@ -1,0 +1,288 @@
+.logo__link{
+    width: 32px;
+}
+
+a {
+    background-color: initial;
+}
+
+.left-nav-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    margin-left: 40px;
+}
+#nav-text{
+    color: black;
+}
+#nav-text:hover{
+    color: #ff6900;
+   border-bottom: solid 3px;
+}
+@media screen and (max-width:1024px){
+    .right-nav-icons{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        position: absolute;
+        right: 100px;
+        top: 7px;
+       
+    }
+}
+@media scrren and(max-width:1203px){
+    .left-nav-icons{
+     
+      
+    }
+}
+@media screen and (max-width:979px){
+    .logo__link{
+        position: relative;
+     right: 45%;   
+     
+    }
+}
+@media screen and (max-width:600px){
+    .logo__link{
+        position: relative;
+     right: 40%;   
+     
+    }
+}
+@media screen and (max-width:100px){
+    #carouselExampleIndicators{
+        width: 1%;
+    }
+}
+@media screen and (max-width:99px){
+  .navbar-toggler{
+        width: 0%;
+    }
+    .navbar-toggler-icon{
+        width: 1%;
+    }
+}
+.right-nav-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    color: bisque;
+}
+
+  .logo__mi .logo__home{
+    transform: translatex(-110px);
+    transition: ease-in-out 0.2s ;
+  }
+  .logo__mi:hover .logo__home{
+    transform: translatex(0px);
+    transition: ease-in-out 0.2s ;
+  }
+.icons{
+    gap: 10px;
+}
+.nav-item-icons{
+    gap: 10px;
+}
+.text{
+    color: black;
+}
+#carousel-caption{
+    right: auto;
+    left: 10%;
+    text-align: left;
+    bottom: auto;
+    top: 35%;
+}
+#w-100{
+    width: 115%;
+}
+.width{
+    
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+.content-img-captions{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translatex(-50%);
+    text-align: center;
+}
+.content-img-captions h1{
+    font-size: 2.5vw;
+    color: white;
+}
+.content-img-captions h4 a{
+    color: #ffff;
+    text-decoration: none;
+   font-size: 1.4rem;
+   ;
+}
+.content-img-captions h4 a :hover{
+    text-decoration: underline;
+    
+}
+.right-arrow{
+    color: #ffff;
+    size: 1%;
+}
+.content-img-captions-buy{
+    position: absolute;
+    top: 10%;
+    left: 6%;
+    text-align: center;
+    
+}
+.content-img-captions-buy h1{
+    color: #ffff;
+    font-size: 2.5vw;
+    font-weight: 500;
+}
+.content-img-captions-buy h4 a{
+    color: #ffff;
+    text-decoration: none;
+   font-size: 1.4rem;
+}
+.content-img-captions-buy h4 a:hover{
+    text-decoration: underline;
+}
+.content-img-captions-trimmer{
+    position: absolute;
+    top: 10%;
+    left: 16%;
+    text-align: center;
+
+}
+.content-img-captions-trimmer h1{
+    font-size: 2.5vw;
+    font-weight: 500;
+}
+.content-img-captions-trimmer h4 a{
+    color: orange;
+    text-decoration: none;
+   font-size: 1.4rem;
+}
+.content-img-captions-trimmer h4 a:hover{
+    text-decoration: underline;
+    
+}
+.right-arrow-last{
+    color:orange;
+    size: 1%;
+}
+.box-shadow:hover{
+box-shadow: 2px 2px 4px 2px rgb(0, 0, 0,0.5);
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.content-bg{
+    background-color: #f2f2f2;
+}
+.t-para a{
+    color: black;
+    text-decoration: none;
+    
+   
+}
+.bt-header{
+    position: relative;
+    top: 10%;
+    left: 16%;
+    text-align: center;
+    transform: translatex(-10%);
+}
+.bt-header h1{
+    font-size: 2.5vw;
+    font-weight: 500;
+    
+}
+.paragraph a{
+    text-decoration: none;
+    color: black;
+}
+.last-para-1{
+    color: black;
+    position: absolute;
+    bottom: 34%;
+    right: 29%;
+}
+.last-para-2{
+    color: black;
+    position: absolute;
+    bottom: 34%;
+    right: 13%
+}
+
+@media screen and (max-width:767px) {
+    .content-img-captions-buy{
+        position: absolute;
+        top: 10%;
+        left: 15%;
+        text-align: center;
+        
+    }
+    .content-img-captions-buy h1{
+        color: #ffff;
+        font-size: 4.0vw;
+        font-weight: 500;
+    }
+    .content-img-captions-buy h4 a{
+        color: #ffff;
+        text-decoration: none;
+       font-size: 1.4rem;
+    }
+    @media screen and (max-width:558px) {
+
+        .content-img-captions-buy{
+            position: absolute;
+            top: 10%;
+            left: 25%;
+            text-align: center;
+            
+        }
+        .content-img-captions-buy h1{
+            color: #ffff;
+            font-size: 5.5vw;
+            font-weight: 500;
+        }
+    }
+    
+}
+@media screen and (max-width:767px) {
+    .content-img-captions-trimmer{
+        position: absolute;
+        top: 10%;
+        left: 19%;
+        text-align: center;
+    
+    }
+    .content-img-captions-trimmer h1{
+        font-size: 4.0vw;
+        font-weight: 500;
+    }
+    .content-img-captions-trimmer h4 a{
+        color: orange;
+        text-decoration: none;
+       font-size: 1.4rem;
+    }
+    @media screen and (max-width:558px) {
+        .content-img-captions-trimmer{
+            position: absolute;
+            top: 5%;
+            left: 35%;
+            text-align: center;
+        
+        }
+        .content-img-captions-trimmer h1{
+            font-size: 4.0vw;
+            font-weight: 500;
+            color: blueviolet;
+        }
+    }
+
+}
